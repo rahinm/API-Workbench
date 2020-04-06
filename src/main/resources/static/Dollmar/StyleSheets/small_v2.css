@@ -1,0 +1,90 @@
+/*
+@media screen and (max-width: 600px)  {...}
+styles are applied if device width is less than the specified amount.
+*/
+
+/* max-width: 900px */
+
+.rect_ad img, .med_rect img, .lg-sky img,
+.leaderboard img, .bottom_banner img {
+    max-width: 100%;
+}
+
+#container { 
+    min-width:inherit;
+}
+#main, #header_nav, #footer_nav {
+    width: 100%;
+}
+#content {
+    float:none;
+    width: auto;
+}
+#sidebar {
+    float:none;
+}
+
+@media screen and (max-width: 750px)  {
+    #main .leaderboard, #main .bottom_banner {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    
+    #sidebar .lg-sky {
+        display: none;
+    }
+
+    #sidebar {
+        width: 320px;
+    }
+    
+    /* reduce padding/margin left/right */
+    #text {
+        padding:0 0 .4em;
+    }
+    div.code_view {
+        padding:6px 0;
+    }
+    .side_wrap {
+        margin: 0 0 2em;
+    }
+    #sidebar .med_rect {
+        margin: 3em 0;
+    }
+    
+    #logo {
+        display: block;
+        font-size:1.2em;
+        letter-spacing: normal;
+        padding:0;
+    }
+    
+    #footer_nav span {
+        display: block;
+        letter-spacing: normal;
+        padding-left: 0;
+        padding-right: 0;
+        font-weight:bold; 
+    }
+    
+    #footer_nav a {
+        padding-left: 0;
+    }
+    
+    #text p {
+        text-align:left;
+    }
+    
+    dl.idx dd {
+        text-align:left;
+        margin-left: 0;
+    }
+
+    h1, h2 {
+        font-size: 1.2em;
+    }
+    
+}
+ 

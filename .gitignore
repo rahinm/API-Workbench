@@ -1,0 +1,13 @@
+.classpath
+.project
+.settings
+.idea
+target
+data/*
+*.log
+misc/*
+dependency-reduced-pom.xml
+*/*.jks
+
+
+

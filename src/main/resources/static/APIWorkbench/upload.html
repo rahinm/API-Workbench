@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APi Workbench - Utility to upload API definition file</title>
+    <link rel="stylesheet" type="text/css" href="/Dollmar/StyleSheets/dollmar.css" />
+</head>
+
+<body>
+<h2>Fill the form below to upload your API definition file</h2>
+<h3><i>Note: The file you are uploading must be in OpenAPI Specification V2.x or V3.x format</i></h3>
+<hr>
+<div style="display:block">
+    <form action="/APIWorkbench/import" method="post" enctype="multipart/form-data">
+        <label for="api_name">API name: </label>
+        <input type="text" id="api_name" name="api_name" placeholder="Name of your API ...">
+        <br>
+        <label for="api_description">API Description: </label>
+        <input type="text" id="api_description" name="api_description" placeholder="Single line description of your API ...">
+        <br>
+        <label for="api_version">API definition file version: </label>
+        <input type="text" id="api_version" name="api_version" placeholder="Version number of your API definition file ...">
+        <br>
+        <label for="api_file">Select a API definition file: </label>
+        <input type="file" id="api_file" name="api_file" accept=".json,.yaml"/>
+        <input type="submit" id="buttonUpload" value="Upload"/>
+        <br>
+    </form>
+</div>
+</body>
+</html>
+

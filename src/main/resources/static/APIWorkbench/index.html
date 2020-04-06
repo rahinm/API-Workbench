@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <title>API Workbench</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+    
+    <link rel="stylesheet" href="/Dollmar/StyleSheets/page_v2.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1800px)" href="/Dollmar/StyleSheets/small_v2.css" />    
+    <script src="/Dollmar/js/page_v2.js" type="text/javascript"></script>    
+    <style type="text/css">
+      iframe#ifrm { 
+        border:1px solid #ccc;
+        margin:.6em 0 .6em;
+        width:100%;
+        height:100%
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div id="container">
+
+      <div id="header">
+        <ul id="header_nav">
+            <li><span id="logo"><a href="/APIWorkbench/apis/">API Workbench</a></span></li>
+            <li><a href="/APIWorkbench/apis" target="ifrm">APIs</a></li>
+            <li><a href="/swagger-editor/" target="ifrm">Edit</a></li>
+            <li><a href="/swagger-ui/" target="ifrm">Test</a></li>
+            <li><a href="/APIWorkbench/upload.html" target="ifrm">Import</a></li>
+            <li><a href="/APIWorkbench/converter.html" target="ifrm">Converter</a></li>
+        </ul>
+      </div>
+    
+      <div id="content">
+        <iframe name="ifrm" id="ifrm" src="/APIWorkbench/apis"></iframe>  
+      </div> <!-- end content -->        
+    </div> <!--end container div -->  
+  </body>
+</html>
