@@ -3,11 +3,15 @@ API Workbench
 
 API Workbench is a a simple web-based application supporting your REST API development activities.
 
-API Workbench embeds swagger-editor and swagger-ui tools to provide you creating, editing and testing
-your APIs. You can also use API Workbench to store and manage your API definitions.
+API Workbench embeds swagger-editor and swagger-ui tools to provide you facilities for creating, 
+editing and testing your APIs. You can also use API Workbench to store and manage your API definitions.
 
 API Workbench is built using the SparkJava micro-framework and JPA/Hibernate. It uses Apache Derby as an 
 embedded database.
+
+_Note: API Workbench includes swagger-editor and swagger-ui tools embedded within it. These tools are
+owned by https://swagger.io and are made available by the owner as open source software under Apache 
+Licence Version 2.0 (see https://swagger.io/license/)._
 
 Running
 -------

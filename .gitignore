@@ -2,6 +2,7 @@
 .project
 .settings
 .idea
+*.jar
 target
 data/*
 *.log
