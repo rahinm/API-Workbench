@@ -23,7 +23,7 @@
 		<version.gson>2.2.4</version.gson>
 		<version.hibernate>5.2.2.Final</version.hibernate>
 		<version.slf4j>1.7.5</version.slf4j>
-		<version.sparkjava>2.5.5</version.sparkjava>
+		<version.sparkjava>2.7.2</version.sparkjava>
 
 		<version.junit>4.12</version.junit>
 		<version.molecule>0.13.0</version.molecule>
