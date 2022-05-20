@@ -20,7 +20,7 @@
 		<main.class>net.dollmar.web.apiworkbench.Main</main.class>
 
 		<version.derby>10.12.1.1</version.derby>
-		<version.gson>2.2.4</version.gson>
+		<version.gson>2.8.9</version.gson>
 		<version.hibernate>5.2.2.Final</version.hibernate>
 		<version.slf4j>1.7.5</version.slf4j>
 		<version.sparkjava>2.5.5</version.sparkjava>
